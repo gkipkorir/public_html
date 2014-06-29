@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title> Create User </title>
+	<style>
+			body {
+				background-color:#d0e4fe;
+			}
+			.center {
+				color:black;
+				text-align:center;
+			}
+			p {
+				font-family:"Times New Roman";
+				font-size:20px;
+			}
+		</style>
+</head>
+
+<body>
+	<br>
+	<div class="center">
+		<p>Create an Account:</p> 
+		<p>Please make it different from your Middlebury account. </p>
+	</div>
+	<br> <br>
+	<SCRIPT LANGUAGE="javascript">
+		// Makes sure that everything is entered correctly
+		var goodColor = "#66cc66";
+		var badColor = "#ff6666";
+		function checkPass() {
+			//Store the password field objects into variables ...
+			var pass1 = document.getElementById('pass1');
+			var pass2 = document.getElementById('pass2');
+			//Store the Confimation Message Object ...
+			var message = document.getElementById('passwordConfirm');
+			var submitButton = document.getElementById('submit');
+			//Compare the values in the password fields
+			if(pass1.value == pass2.value){
+				//The passwords match.
+				pass2.style.backgroundColor = goodColor;
+				message.style.color = goodColor;
+				message.innerHTML = "Passwords Match!";
+				submitButton.type = "submit"
+			}
+			else{
+				//The passwords do not match.
+				pass2.style.backgroundColor = badColor;
+				message.style.color = badColor;
+				message.innerHTML = "Passwords Do Not Match!";
+				submitButton.type = "hidden";
+			}
+		}  
+
+		function validate() {	
+			fm = document.thisForm
+			fm.submit()
+		}
+	</SCRIPT>
+		<link rel="stylesheet" type="text/css">
+		<div class="tutorialWrapper">
+			<form action="insert.php" method="post">
+				First Name: <input type="text" name="firstName" required /> <br>
+				Last Name: <input type="text" name="lastName" required /> <br>
+				<div class="fieldWrapper">
+				    <label for="email">Email:</label>
+				    <input name="email" id="email" onkeyup="checkEmail(); return false;" type="text" required>
+				    <span id="emailConfirm" class="confirmMessage"></span>
+				</div> <br>
+				Middlebury College ID: <input type="text" name="firstName" required /> <br>
+				<div class="fieldWrapper">
+				    <label for="pass1">Password:</label>
+				    <input name="pass1" id="pass1" type="password" required>
+				</div>
+				<div class="fieldWrapper">
+				    <label for="pass2">Confirm Password:</label>
+				    <input name="pass2" id="pass2" onkeyup="checkPass(); return false;" type="password" required>
+				    <span id="passwordConfirm" class="confirmMessage"></span>
+				</div>
+				<input type="hidden" id="submit" value="Insert into Database"/> <br> <br>
+			</form>
+	</div>
+	</body>
+</html>

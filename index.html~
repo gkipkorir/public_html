@@ -1,0 +1,60 @@
+<!--
+Gilbert Kipkorir
+CS101 A
+Prof. Danniel Scharstein
+CS101 Home page.
+-->
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title> Gilbert Kipkorir.</title>
+</head><body>
+<body bgcolor="white">
+<h1 align="center"> Gilbert's awesome page!!!</h1>
+<p align="center"><b>WELCOME TO MY HOME PAGE!</b></p>
+<p align="center"><img src="kipkorir.jpg" align="center"></p>
+<p align="center"> <i>That's me!</i> </p>
+<p align="center"> <tt>My name is Gilbert Kipkorir and I am a freshman at
+<a href= "http://www.middlebury.edu">Middlebury College.</tt></a>
+<p align="center"> <font size="5">A little about myself</font></p>
+<p align="center"><font color="green">I was born and raised in Eldoret,
+</font><font size="5"<font color="red">K</font><font size="5"
+<font color="green">E</font> <font size="5"<font color="red">N</font>
+<font size="5"<font color="black">Y</font><font size="5"<font color="red">A</font></p></font>
+<P align="center"><img src="kenya.jpg"></p>
+<p align="center"> I live in Allen</p>
+<p  align="center"><img src="allen1.jpg"></p>
+<p align="center"> I am taking four classes this semester
+and <a href= "http://www.cs.middlebury.edu/~cs101/">CS101</a> is my favorite!!
+<p align="center"><font color="red"> Favorite meal places? </font> </p>
+
+<table border = "1"
+	<tr align="center">
+		<td>Breakfast</td>
+		<td>Lunch</td>
+		<td>Dinner</td>
+	</tr>
+	<tr align="center">
+		<td>Atwater</td>
+		<td>Proctor</td>
+		<td>Ross</td>
+	</td>
+</table>
+
+<p align="center"> I spend most of "free" time 
+on <a href= "http://www.facebook.com">Facebook</a>watching movies
+at <a href= "http://www.netflix.com">Neflix</a> and checking out stuff 
+on <a href="http://www.wikipedia.com">Wikipedia</a></p>
+<p align="center"> And ooh, I do <a href= "Crosscountry.html">cross 
+country</a> and feel free to check my my page!
+<p align="center"> Other interests and hobbies:
+	<center>
+	<ul align="center">
+		<li align="center"> Watching soccer</li>
+		<li align="center"> Playing table tennis</li>
+		<li align="center"> Cooking</li>
+	</ul>
+	<center>
+<p align="center"> <i> Thanks for checking this out!</i></p>
+ 
+</body> </html>
